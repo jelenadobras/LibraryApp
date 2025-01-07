@@ -15,7 +15,7 @@ Feature: As a librarian, I want to create a new user using   add_user  endpoint 
       | user_id |
 
 
-
+   @db @ui
   Scenario: Create a new user ALL LAYERS
     Given I logged Library api as a "librarian"
     And Accept header is "application/json"

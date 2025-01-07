@@ -1,7 +1,7 @@
 Feature: As a user, I want to view my own user information using decode endpoint so that I can see what
   information is stored about me.
 
-  @wip @db @ui
+
   Scenario Outline: View my own user information
     Given I logged Library api with credentials "<email>" and "<password>"
     And Accept header is "application/json"
